@@ -1,0 +1,168 @@
+/***************** http://meyerweb.com/eric/tools/css/reset/ ******************
+****************** v2.0 | 20110126 License: none (public domain)   ************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+body {
+    background-color: #cc6666;
+    font-family: Arial; Geneva, sans-serif;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #cc6666;
+}
+
+#container {
+    width: 992px;
+    margin: 0 auto;
+}
+
+header, main, footer {
+    margin: 0 10px;
+}
+
+#header_cont, main, footer {
+    background-color: #ffeee5;
+}
+
+
+/****************** Prefixes for Browsers ******************/
+/*
+Here be dragons! Lots of (syntax) changes
+Read: http://css-tricks.com/old-flexbox-and-new-flexbox/
+Mixing both old- and new syntax http://css-tricks.com/using-flexbox/
+Thank you @chriscoyier !
+*/
+
+.page-wrap {
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+}
+
+.main-nav,
+.main-sidebar {
+  -webkit-box-flex: 1;   /* OLD - iOS 6-, Safari 3.1-6 */
+  width: 20%;            /* For old syntax, otherwise collapses. */
+  -webkit-flex: 1;       /* Safari 6.1+. iOS 7.1+, BB10 */
+  -ms-flex: 1;           /* IE 10 */
+  flex: 1;               /* NEW, Spec - Firefox, Chrome, Opera */
+}
+
+
+/****************** Button Styling ******************/
+
+.button {
+    margin: 10px 20px;
+    text-align: center;
+    padding: 5px 25px;
+    border: 1px;
+    border-radius: 5px;
+    border-color: black;
+    list-style:none;
+    background: linear-gradient(0deg, #ffbb99, #ffdd99);
+}
+
+
+/******************* Text Styling ********************/
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+}
+
+p.small {
+    font-size: 14px;
+}
+
+.warning {
+    color: darkred;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 22px;
+}
+
+/******************* Header Styles *******************/
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0 10px 40px 10px;
+}
+
+#header_block {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    background-color: #ffeee5;
+    margin: 17px 0 3px 0;
+}
+
+#warbler_logo {
+    width: 100px;
+    height: 100px;
+    margin: 15px auto;
+}
+
+h1 {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 80px;
+    color: dimgray;
+}
+
+#tag_line {
+    margin: 10px 10px 10px 15px;
+}
+
+#greeting {
+    margin: 20px 0 30px 0;
+}
+
+#greeting p {
+    margin-bottom: 5px;
+}
+
