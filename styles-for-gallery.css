@@ -1,0 +1,438 @@
+/* Resizing article and aside */
+article {
+    padding-top: 20px;
+	flex: 3;
+}
+
+aside {
+	flex: 1;
+}
+
+.gallery-container {
+    position:relative; 
+    width:700px; 
+    height:2550px; 
+    margin:20px auto 0 auto; 
+    border:1px solid #aaa; 
+}
+
+#manga-1 {
+    height:760px;
+}
+
+#manga-2 {
+    height:800px;
+}
+
+#manga-3 {
+    height:760px;
+}
+
+#manga-4 {
+    height:760px;
+}
+
+#manga-5 {
+    height:750px;
+}
+
+#manga-6 {
+    height:760px;
+}
+
+
+.gallery-container ul { 
+    padding:0; 
+    margin:0; 
+    list-style-type:none; 
+}
+
+/* Shrink images and text */ 
+.gallery-container a.gallery span { 
+    position:absolute; 
+    width:1px; 
+    height:1px; 
+    top:-1px; 
+    left:-1px; 
+    overflow:hidden; 
+    background:#fff; 
+} 
+
+/* styling the :hover span */ 
+.gallery-container a.gallery:hover span { 
+    position:absolute; 
+    width:500px; 
+    height:auto; 
+    top:10px; 
+    left:10px; 
+    color:#000; 
+    background:#fff; 
+    }
+
+.gallery-container a.gallery:hover img { 
+    border:1px solid #fff; 
+    float:left; 
+    margin-right:5px; 
+} 
+
+.gallery-container a.gallery, .gallery-container a.gallery:visited { 
+    display:block; 
+    color:#000; 
+    text-decoration:none; 
+    border:1px solid #000; 
+    margin:1px 2px 1px 2px; 
+    text-align:left; 
+    cursor:default; 
+}
+
+.gallery-container a.gallery:hover { 
+    border:1px solid #fff; 
+} 
+
+/* set the size of the unordered list to neatly house the thumbnails */ 
+
+.gallery-container ul { 
+    width:165px; 
+    height:386px; 
+    margin:5px; 
+    float:right; 
+} 
+
+.gallery-container li { 
+    float:left; 
+} 
+
+.gallery-container a {
+    width: 75px;
+    height: 75px;
+    
+}
+
+.gallery-container a.slide1 {
+    background:url(morgue-images/Manga/&%20-%201.png) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide2 {
+    background:url(morgue-images/Manga/&%20-%202.png) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide3 {
+    background:url(morgue-images/Manga/&%20-%203.png) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide4 {
+    background:url(morgue-images/Manga/annarasumanara%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide5 {
+    background:url(morgue-images/Manga/annarasumanara%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide6 {
+    background:url(morgue-images/Manga/annarasumanara%20-%203.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide7 {
+    background:url(morgue-images/Manga/balancing%20toy%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide8 {
+    background:url(morgue-images/Manga/balancing%20toy%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide9 {
+    background:url(morgue-images/Manga/balancing%20toy%20-%203.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide10 {
+    background:url(morgue-images/Manga/balancing%20toy%20-%204.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide11 {
+    background:url(morgue-images/Manga/balancing%20toy%20-%205.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide12 {
+    background:url(morgue-images/Manga/beauty%20is%20the%20beast%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide13 {
+    background:url(morgue-images/Manga/bitou%20lollipop%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide14 {
+    background:url(morgue-images/Manga/bitou%20lollipop%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide15 {
+    background:url(morgue-images/Manga/futago%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide16 {
+    background:url(morgue-images/Manga/futago%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide17 {
+    background:url(morgue-images/Manga/futago%20-%203.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide18 {
+    background:url(morgue-images/Manga/Hana%20no%20Mizo%20Shiru%20%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide19 {
+    background:url(morgue-images/Manga/Hana%20no%20Mizo%20Shiru%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide20 {
+    background:url(morgue-images/Manga/Hana%20no%20Mizo%20Shiru%20-%203.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide21 {
+    background:url(morgue-images/Manga/hirunaka%20no%20ryuusei%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide22 {
+    background:url(morgue-images/Manga/hirunaka%20no%20ryuusei%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide23 {
+    background:url(morgue-images/Manga/hirunaka%20no%20ryuusei%20-%203.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide24 {
+    background:url(morgue-images/Manga/hirunaka%20no%20ryuusei%20-%204.png) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide25 {
+    background:url(morgue-images/Manga/kuragehime%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide26 {
+    background:url(morgue-images/Manga/kuragehime%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide27 {
+    background:url(morgue-images/Manga/kuragehime%20-%203.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide28 {
+    background:url(morgue-images/Manga/kuragehime%20-%204.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide29 {
+    background:url(morgue-images/Manga/natsu%20no%20zenjitsu%20-%201.png) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide30 {
+    background:url(morgue-images/Manga/natsu%20no%20zenjitsu%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide31 {
+    background:url(morgue-images/Manga/natsu%20no%20zenjitsu%20-%203.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide32 {
+    background:url(morgue-images/Manga/piece%20of%20cake%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide33 {
+    background:url(morgue-images/Manga/piece%20of%20cake%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide34 {
+    background:url(morgue-images/Manga/piece%20of%20cake%20-%203.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide35 {
+    background:url(morgue-images/Manga/piece%20of%20cake%20-%204.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide36 {
+    background:url(morgue-images/Manga/pink%20lady%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide37 {
+    background:url(morgue-images/Manga/pink%20lady%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide38 {
+    background:url(morgue-images/Manga/ran%20to%20haiiro%20no%20sekai%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide39 {
+    background:url(morgue-images/Manga/savage%20garden%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide40 {
+    background:url(morgue-images/Manga/savage%20garden%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide41 {
+    background:url(morgue-images/Manga/solanin%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide42 {
+    background:url(morgue-images/Manga/solanin%20-%202.png) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide43 {
+    background:url(morgue-images/Manga/strobe%20edge%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide44 {
+    background:url(morgue-images/Manga/strobe%20edge%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide45 {
+    background:url(morgue-images/Manga/strobe%20edge%203.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide46 {
+    background:url(morgue-images/Manga/teke%20teke%20rendezvous%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide47 {
+    background:url(morgue-images/Manga/teke%20teke%20rendezvous%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide48 {
+    background:url(morgue-images/Manga/teke%20teke%20rendezvous%20-%203.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide49 {
+    background:url(morgue-images/Manga/teke%20teke%20rendezvous%20-%204.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide50 {
+    background:url(morgue-images/Manga/the%20story%20of%20someone%20we%20know%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide51 {
+    background:url(morgue-images/Manga/the%20story%20of%20someone%20we%20know%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide52 {
+    background:url(morgue-images/Manga/the%20story%20of%20someone%20we%20know%20-%203.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide53 {
+    background:url(morgue-images/Manga/toribako%20house%20-%201.png) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide54 {
+    background:url(morgue-images/Manga/toribako%20house%20-%202.png) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide55 {
+    background:url(morgue-images/Manga/toribako%20house%20-%203.png) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide56 {
+    background:url(morgue-images/Manga/torikagosou%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide57 {
+    background:url(morgue-images/Manga/torikagosou%20-%202.png) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide58 {
+    background:url(morgue-images/Manga/torikagosou%20-%203.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide59 {
+    background:url(morgue-images/Manga/tsubaki%20biyori%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide60 {
+    background:url(morgue-images/Manga/tsubaki%20biyori%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide61 {
+    background:url(morgue-images/Manga/tsubaki%20biyori%20-%203.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide62 {
+    background:url(morgue-images/Manga/unknown%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.slide63 {
+    background:url(morgue-images/Manga/unknown%20-2.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.fa-slide {
+    background:url(morgue-images/) left center/100% auto no-repeat;
+}
+
+/* ==============Fine Arts Category============== */
+.gallery-container a.fa-slide1 {
+    background:url(/morgue-images/Fine%20Arts/agnes%20cecile%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.fa-slide2 {
+    background:url(/morgue-images/Fine%20Arts/agnes%20cecile%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.fa-slide3 {
+    background:url(/morgue-images/Fine%20Arts/agnes%20cecile%20-%203.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.fa-slide4 {
+    background:url(/morgue-images/Fine%20Arts/james%20jean%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.fa-slide5 {
+    background:url(/morgue-images/Fine%20Arts/james%20jean%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.fa-slide6 {
+    background:url(/morgue-images/Fine%20Arts/james%20jean%20-%203.JPG) left center/100% auto no-repeat;
+}
+
+.gallery-container a.fa-slide7 {
+    background:url(/morgue-images/Fine%20Arts/loish%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.fa-slide8 {
+    background:url(/morgue-images/Fine%20Arts/loish%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.fa-slide9 {
+    background:url(/morgue-images/Fine%20Arts/loish%20-%203.jpg) left center/100% auto no-repeat;
+}
+
+
+/* ==============Design Category============== */
+.gallery-container a.d-slide1 {
+    background:url(/morgue-images/Design/kasuga%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.d-slide2 {
+    background:url(/morgue-images/Design/lg%20lollipop%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.d-slide3 {
+    background:url(/morgue-images/Design/pom%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.d-slide4 {
+    background:url(/morgue-images/Design/quick%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.d-slide5 {
+    background:url(/morgue-images/Design/quick%20-%202.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.d-slide6 {
+    background:url(/morgue-images/Design/ramune%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+.gallery-container a.d-slide7 {
+    background:url(/morgue-images/Design/yin%20chao%20-%201.jpg) left center/100% auto no-repeat;
+}
+
+/*
+.gallery-container a.slide1 {
+    background:url(morgue-images/Manga/) left center/100% auto no-repeat;
+}
+*/

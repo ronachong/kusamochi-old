@@ -1,0 +1,487 @@
+/* Resizing article and aside */
+
+article {
+    display:flex;
+    flex-direction:column;
+    padding-top: 20px;
+	flex: 3;
+}
+
+aside {
+	flex: 1;
+}
+
+.gallery-container {
+    width: 700px;
+    height: auto;
+    margin:20px auto 0 auto;  
+}
+
+.gallery-container ul { 
+    padding:0; 
+    margin:0; 
+    list-style-type:none; 
+}
+
+/* Shrink images and text */  
+
+.gallery-container a.gallery:hover img { 
+    border:1px solid #fff; 
+    float:left; 
+    margin-right:5px; 
+} 
+
+.gallery-container a.gallery, .gallery-container a.gallery:visited { 
+    display:block; 
+    color:#fff; 
+    text-decoration:none; 
+    border:3px solid #fff; 
+    margin:1px 2px 1px 2px; 
+    text-align:left; 
+    cursor:default; 
+}
+
+.gallery-container a.gallery:hover { 
+    border:3px solid rgba(50,200,5,0.6); 
+} 
+
+/* set the size of the unordered list to neatly house the thumbnails */ 
+
+.gallery-container ul { 
+    width:auto; 
+    height:auto; 
+    margin:5px;
+}
+
+ul.nodisplay {
+    display:none
+}
+
+ul.display {
+    display:block;
+}
+
+.gallery-container li { 
+    float:left; 
+} 
+
+.gallery-container a {
+    width: 75px;
+    height: 75px;
+}
+
+a.big {
+    width: 350px;
+    height: 350px;
+}
+
+#graphic-design a.big {
+    width: 650px;
+    height: 650px;
+}
+
+/* ==============Doodling Gallery============== */
+#p-slide1 {
+    background:url(/portfolio/doodling/2015-11-11.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide2 {
+    background:url(/portfolio/doodling/2015-11-10.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide3 {
+    background:url(/portfolio/doodling/2015-10ish.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide4 {
+    background:url(/portfolio/doodling/2015-09ish.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide5 {
+    background:url(/portfolio/doodling/2015-08ish%202.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide6 {
+    background:url(/portfolio/doodling/2015-07ish.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide7 {
+    background:url(/portfolio/doodling/2015-06-21.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide8 {
+    background:url(/portfolio/doodling/2015-05-17.jpeg) left center/100% auto no-repeat;
+}
+
+#p-slide9 {
+    background:url(/portfolio/doodling/2014-08ish.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide10 {
+    background:url(/portfolio/doodling/2014-07ish.JPG) left center/100% auto no-repeat;
+}
+
+#p-slide11 {
+    background:url(/portfolio/doodling/2014-06ish.JPG) left center/100% auto no-repeat;
+}
+
+#p-slide12 {
+    background:url(/portfolio/doodling/2014-06ish%209.JPG) left center/100% auto no-repeat;
+}
+
+#p-slide13 {
+    background:url(/portfolio/doodling/2014-06ish%2010.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide14 {
+    background:url(/portfolio/doodling/2014-06ish%2011.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide15 {
+    background:url(/portfolio/doodling/2014-06ish%208.JPG) left center/100% auto no-repeat;
+}
+
+#p-slide16 {
+    background:url(/portfolio/doodling/2014-06ish%207.JPG) left center/100% auto no-repeat;
+}
+
+#p-slide17 {
+    background:url(/portfolio/doodling/2014-06ish%206.JPG) left center/100% auto no-repeat;
+}
+
+#p-slide18 {
+    background:url(/portfolio/doodling/2014-06ish%205.JPG) left center/100% auto no-repeat;
+}
+
+#p-slide19 {
+    background:url(/portfolio/doodling/2014-06ish%204.JPG) left center/100% auto no-repeat;
+}
+
+#p-slide20 {
+    background:url(/portfolio/doodling/2014-06ish%203.JPG) left center/100% auto no-repeat;
+}
+
+#p-slide21 {
+    background:url(/portfolio/doodling/2014-06ish%202.JPG) left center/100% auto no-repeat;
+}
+
+#p-slide22 {
+    background:url(/portfolio/doodling/2014-06-27.JPG) left center/100% auto no-repeat;
+}
+
+#p-slide23 {
+    background:url(/portfolio/doodling/2014-06-23.JPG) left center/100% auto no-repeat;
+}
+
+#p-slide24 {
+    background:url(/portfolio/doodling/2014-03ish%203.JPG) left center/100% auto no-repeat;
+}
+
+#p-slide25 {
+    background:url(/portfolio/doodling/2014-03ish%202.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide26 {
+    background:url(/portfolio/doodling/2014-03ish%201.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide27 {
+    background:url(/portfolio/doodling/2013ish.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide28 {
+    background:url(/portfolio/doodling/2013-07ish%207.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide29 {
+    background:url(/portfolio/doodling/2013-07ish%206.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide30 {
+    background:url(/portfolio/doodling/2013-07ish%205.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide31 {
+    background:url(/portfolio/doodling/2013-07ish%204.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide32 {
+    background:url(/portfolio/doodling/2013-07ish%203.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide33 {
+    background:url(/portfolio/doodling/2013-07ish%202.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide34 {
+    background:url(/portfolio/doodling/2013-07ish%201.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide35 {
+    background:url(/portfolio/doodling/2013-06ish%208.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide36 {
+    background:url(/portfolio/doodling/2013-06ish%207.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide37 {
+    background:url(/portfolio/doodling/2013-06ish%206.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide38 {
+    background:url(/portfolio/doodling/2013-06ish%205.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide39 {
+    background:url(/portfolio/doodling/2013-06ish%204.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide40 {
+    background:url(/portfolio/doodling/2013-06ish%203.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide41 {
+    background:url(/portfolio/doodling/2013-06ish%202.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide42 {
+    background:url(/portfolio/doodling/2013-06ish%201.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide43 {
+    background:url(/portfolio/doodling/2013-06-23.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide44 {
+    background:url(/portfolio/doodling/2013-05ish.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide45 {
+    background:url(/portfolio/doodling/2012-12ish%203.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide46 {
+    background:url(/portfolio/doodling/2012-12ish%202.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide47 {
+    background:url(/portfolio/doodling/2012-12ish%201.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide48 {
+    background:url(/portfolio/doodling/2012-11ish.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide49 {
+    background:url(/portfolio/doodling/2012-11ish%209.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide50 {
+    background:url(/portfolio/doodling/2012-11ish%208.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide51 {
+    background:url(/portfolio/doodling/2012-11ish%207.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide52 {
+    background:url(/portfolio/doodling/2012-11ish%206.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide53 {
+    background:url(/portfolio/doodling/2012-11ish%205.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide54 {
+    background:url(/portfolio/doodling/2012-11ish%204.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide55 {
+    background:url(/portfolio/doodling/2012-11ish%203.jpg) left center/100% auto no-repeat;
+}
+
+
+#p-slide56 {
+    background:url(/portfolio/doodling/2012-11ish%202.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide57 {
+    background:url(/portfolio/doodling/2012-10ish%201.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide58 {
+    background:url(/portfolio/doodling/2012-07-27%203.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide59 {
+    background:url(/portfolio/doodling/2012-07-27%202.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide60 {
+    background:url(/portfolio/doodling/2012-07-27%201.jpg) left center/100% auto no-repeat;
+}
+
+#p-slide61 {
+    background:url(/portfolio/doodling/2011-12ish.jpg) left center/100% auto no-repeat;
+}
+
+
+/* ==============More Formal Work Gallery============== */
+#p3-slide1 {
+    background:url(/portfolio/classwork/2014-05ish.JPG) center center/auto 100% no-repeat;
+}
+
+#p3-slide2 {
+    background:url(/portfolio/classwork/2014-05ish%201.jpg) center center/auto 100% no-repeat;
+}
+
+#p3-slide3 {
+    background:url(/portfolio/classwork/2014-05ish%202.jpg) center center/auto 100% no-repeat;
+}
+
+#p3-slide4 {
+    background:url(/portfolio/classwork/2014-05ish%203.jpg) center center/auto 100% no-repeat;
+}
+
+#p3-slide5 {
+    background:url(/portfolio/classwork/2014-05ish%204.jpg) center center/auto 100% no-repeat;
+}
+
+#p3-slide6 {
+    background:url(/portfolio/classwork/2014-05ish%205.jpg) center center/auto 100% no-repeat;
+}
+
+#p3-slide7 {
+    background:url(/portfolio/classwork/2014-05ish%206.jpg) center center/auto 100% no-repeat;
+}
+
+#p3-slide8 {
+    background:url(/portfolio/classwork/2014-05ish%207.jpg) center center/auto 100% no-repeat;
+}
+
+#p3-slide9 {
+    background:url(/portfolio/classwork/2014-05ish%208.jpg) center center/auto 100% no-repeat;
+}
+
+#p3-slide10 {
+    background:url(/portfolio/classwork/2014-05ish%209.jpg) center center/auto 100% no-repeat;
+}
+
+#p3-slide11 {
+    background:url(/portfolio/classwork/2014-05ish%2010.jpg) center center/auto 100% no-repeat;
+}
+
+
+/* ==============Graphic Design Gallery============== */
+#p4-slide1 {
+    background:url(/portfolio/design/1_graphic%20design%201_28_2013%20graphic%20design%20portfolio-1.png) center center/100% auto no-repeat;
+}
+
+#p4-slide2 {
+    background:url(/portfolio/design/2_graphic%20design%201_28_2013%20graphic%20design%20portfolio-1.png) center center/100% auto no-repeat;
+}
+
+#p4-slide3 {
+    background:url(/portfolio/design/3_graphic%20design%201_28_2013%20graphic%20design%20portfolio-1.png) center center/100% auto no-repeat;
+}
+
+#p4-slide4 {
+    background:url(/portfolio/design/4_graphic%20design%201_28_2013%20graphic%20design%20portfolio-1.png) center center/100% auto no-repeat;
+}
+
+#p4-slide5 {
+    background:url(/portfolio/design/5_graphic%20design%201_28_2013%20graphic%20design%20portfolio-1.png) center center/100% auto no-repeat;
+}
+
+#p4-slide6 {
+    background:url(/portfolio/design/6_graphic%20design%201_28_2013%20graphic%20design%20portfolio-1.png) center center/100% auto no-repeat;
+}
+
+#p4-slide7 {
+    background:url(/portfolio/design/7_graphic%20design%201_28_2013%20graphic%20design%20portfolio-1.png) center center/100% auto no-repeat;
+}
+
+#p4-slide8 {
+    background:url(/portfolio/design/8_graphic%20design%201_28_2013%20graphic%20design%20portfolio-1.png) center center/auto 100% no-repeat;
+}
+
+#p4-slide9 {
+    background:url(/portfolio/design/9_graphic%20design%201_28_2013%20graphic%20design%20portfolio-1.png) center center/100% auto no-repeat;
+}
+
+#p4-slide10 {
+    background:url(/portfolio/design/p%201%20YO-%20adversity%20final-1.png) center center/auto 100% no-repeat;
+}
+
+#p4-slide11 {
+    background:url(/portfolio/design/p%202%20-%20api%20history%20finalYO-1.png) center center/auto 100% no-repeat;
+}
+
+#p4-slide12 {
+    background:url(/portfolio/design/p%203%20-%20YOstereotypes%20final-1.png) center center/auto 100% no-repeat;
+}
+
+#p4-slide13 {
+    background:url(/portfolio/design/p%204%20-%20YO%20student%20experience%20final-1.png) center center/auto 100% no-repeat;
+}
+
+#p4-slide14 {
+    background:url(/portfolio/design/p%205%20-%20YO%20what%20do%20you%20see%20final-1.png) center center/auto 100% no-repeat;
+}
+
+/* ==============Art Post Thumbnails============== */
+
+.art-post .gallery-container {
+    margin: auto;
+}
+
+.art-post a.gallery {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.art-post a.big {
+    width: 500px;
+    height: 500px;
+}
+
+#d11-14-15-slide1 {
+    background:url(/portfolio/projects/11-14-2015/girl%20sitting%20on%20grass.jpg) center center/auto 100% no-repeat;
+}
+
+#d11-14-15-slide2 {
+    background:url(/portfolio/projects/11-14-2015/1.jpg) center center/auto 100% no-repeat;
+}
+
+#d11-14-15-slide3 {
+    background:url(/portfolio/projects/11-14-2015/2.jpg) center center/auto 100% no-repeat;
+}
+
+#d11-14-15-slide4 {
+    background:url(/portfolio/projects/11-14-2015/3.jpg) center center/auto 100% no-repeat;
+}
+
+#d11-14-15-slide5 {
+    background:url(/portfolio/projects/11-14-2015/4.jpg) center center/auto 100% no-repeat;
+}
+
+#d11-14-15-slide6 {
+    background:url(/portfolio/projects/11-14-2015/5.jpg) center center/auto 100% no-repeat;
+}
+
+#d11-14-15-slide7 {
+    background:url(/portfolio/projects/11-14-2015/6.jpg) center center/auto 100% no-repeat;
+}
+
+#d11-14-15-slide8 {
+    background:url(/portfolio/projects/11-14-2015/7.png) center center/auto 100% no-repeat;
+}
+
+
+/*
+.gallery-container a.slide1 {
+    background:url(morgue-images/Manga/) left center/100% auto no-repeat;
+}
+*/

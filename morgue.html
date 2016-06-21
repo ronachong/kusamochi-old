@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+		<title>Kusamochi</title>
+		<link href="https://www.holbertonschool.com/level2/holberton.css" rel="stylesheet">
+		<link href="styles.css" rel="stylesheet">
+        <script src="behavior.js"></script>
+        
+        
+        <!-- ==============jQuery/JS============== -->
+
+        <script type="text/javascript">
+        position = null;
+        livePreviewOverlay = null;
+        morgueItem = null;
+        morgueItemChildren = null;
+        </script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="jquery-make-preview-visible.js"></script>
+        
+	</head>
+	
+	<body class="works_on_smartphone">
+        
+        <!-- ==============FACEBOOK SCRIPT============== -->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+          fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        
+       <div id="mainContainer">
+           
+            <!-- ==============HEADER============== -->
+           <header>
+
+                <div id="headerText">
+                    <h1 class="logo">
+                        <a href="index.html">Kusamochi</a>
+                    </h1>
+                    <!-- h1 is a req'd element; think about how to re-implement b4 removing -->
+
+                    <h3>One girl's semi-anonymous outlet</h3>
+                    <!-- h3 is a req'd element; think about how to re-implement b4 removing -->
+
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a>
+                            <li><a href="morgue.html">Morgue</a>
+                            <li><a href="portfolio.html">Portfolio</a>
+                            <li><a href="tweets.html">Diary</a>
+                            <li><a href="bbs.html">BBS</a>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div id="dynamicImage">
+                    <img src="portfolio/projects/kusamochi-w-filter.png" class="small" alt="header" >
+                </div>
+
+               <div id="socialMedia" class="right">
+                    <img src="disqus-favicon-20x20.png" id="disqusIcon">
+                    <div class="fb-share-button" data-href="https://www.facebook.com/ksamochi/?skip_nax_wizard=true" data-layout="icon"></div>
+
+                   <!-- <a href="https://twitter.com/share" class="twitter-share-button" data-via="ronachng">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> -->
+
+                    <a href="http://twitter.com/home?status=Kusamochi+173.246.106.210/index.html+@ronachong"target="_blank">
+                        <img src="https://abs.twimg.com/favicons/favicon.ico">
+                    </a>
+               </div>
+            </header>
+
+            <!-- ==============MAIN============== -->
+            <main>
+                <article>
+                    <h2>Morgue</h2>
+                    <br><br>
+                    
+                    <section class="morgue-icons" id="manga">
+                        <a href="morgue/manga.html" class="big-icon-link">
+                            <div class="big-icon"> 
+                                <h4>manga</h4>
+                            </div>
+                        </a>
+                        <ol>
+                            <li class="morgue-item"> </li>
+                            <a href="morgue/manga/1.html" class="no-styling"><span>
+                                <img src="morgue-images/Manga/& - 1.png" alt="" title="" />
+                                <img src="morgue-images/Manga/& - 2.png" alt="" title="" />
+                                <img src="morgue-images/Manga/& - 3.png" alt="" title="" />
+                                <img src="morgue-images/Manga/natsu%20no%20zenjitsu%20-%201.png" alt="" title="" />
+                                <img src="morgue-images/Manga/natsu%20no%20zenjitsu%20-%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/natsu%20no%20zenjitsu%20-%203.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/piece%20of%20cake%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/piece%20of%20cake%20-%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/piece%20of%20cake%20-%203.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/piece%20of%20cake%20-%204.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/ran%20to%20haiiro%20no%20sekai%20-%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/teke%20teke%20rendezvous%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/teke%20teke%20rendezvous%20-%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/teke%20teke%20rendezvous%20-%203.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/teke%20teke%20rendezvous%20-%204.jpg" alt="" title="" />
+                            </span></a>
+                            
+                            <li class="morgue-item"> </li>
+                            <a href="morgue/manga/2.html" class="no-styling"><span>
+                                <img src="morgue-images/Manga/balancing%20toy%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/balancing%20toy%20-%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/balancing%20toy%20-%203.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/balancing%20toy%20-%204.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/balancing%20toy%20-%205.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/hirunaka%20no%20ryuusei%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/hirunaka%20no%20ryuusei%20-%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/hirunaka%20no%20ryuusei%20-%203.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/hirunaka%20no%20ryuusei%20-%204.png" alt="" title="" />
+                                <img src="morgue-images/Manga/the%20story%20of%20someone%20we%20know%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/the%20story%20of%20someone%20we%20know%20-%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/the%20story%20of%20someone%20we%20know%20-%203.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/tsubaki%20biyori%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/tsubaki%20biyori%20-%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/tsubaki%20biyori%20-%203.jpg" alt="" title="" />
+                            .</span></a>
+                            
+                            <li> </li>
+                           <a href="morgue/manga/3.html" class="no-styling"><span>
+                                <img src="morgue-images/Manga/bitou%20lollipop%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/bitou%20lollipop%20-%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/futago%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/futago%20-%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/futago%20-%203.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/toribako%20house%20-%201.png" alt="" title="" />
+                                <img src="morgue-images/Manga/toribako%20house%20-%202.png" alt="" title="" />
+                                <img src="morgue-images/Manga/toribako%20house%20-%203.png" alt="" title="" />
+                            .</span></a>
+                            
+                            <li> </li>
+                            <a href="morgue/manga/4.html" class="no-styling"><span>
+                                <img src="morgue-images/Manga/beauty%20is%20the%20beast%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/kuragehime%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/kuragehime%20-%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/kuragehime%20-%203.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/kuragehime%20-%204.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/strobe%20edge%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/strobe%20edge%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/strobe%20edge%203.jpg" alt="" title="" />
+                            .</span></a>
+                            
+                            <li> </li>
+                            <a href="morgue/manga/5.html" class="no-styling"><span>
+                                <img src="morgue-images/Manga/Hana%20no%20Mizo%20Shiru%20%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/Hana%20no%20Mizo%20Shiru%20-%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/Hana%20no%20Mizo%20Shiru%20-%203.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/savage%20garden%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/savage%20garden%20-%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/torikagosou%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/torikagosou%20-%202.png" alt="" title="" />
+                                <img src="morgue-images/Manga/torikagosou%20-%203.jpg" alt="" title="" />
+                            .</span></a>
+                            
+                            <li> </li>
+                            <a href="morgue/manga/6.html" class="no-styling"><span>
+                                <img src="morgue-images/Manga/annarasumanara%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/annarasumanara%20-%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/annarasumanara%20-%203.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/pink%20lady%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/pink%20lady%20-%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/solanin%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/solanin%20-%202.png" alt="" title="" />
+                                <img src="morgue-images/Manga/unknown%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Manga/unknown%20-2.jpg" alt="" title="" />
+                            </span></a>
+                            <!--<a href=""></a><span>
+                                <img src="morgue-images/Manga/" alt="" title="" />
+                                <img src="morgue-images/Manga/" alt="" title="" />
+                                <img src="morgue-images/Manga/" alt="" title="" />
+                                <img src="morgue-images/Manga/" alt="" title="" />
+                                <img src="morgue-images/Manga/" alt="" title="" />
+                                <img src="morgue-images/Manga/" alt="" title="" />
+                                <img src="morgue-images/Manga/" alt="" title="" />
+                                <img src="morgue-images/Manga/" alt="" title="" />
+                                <img src="morgue-images/Manga/" alt="" title="" />
+                                <img src="morgue-images/Manga/" alt="" title="" />
+                                <img src="morgue-images/Manga/" alt="" title="" />
+                                <img src="morgue-images/Manga/" alt="" title="" />
+                                <img src="morgue-images/Manga/" alt="" title="" />
+                                <img src="morgue-images/Manga/" alt="" title="" />
+                                <img src="morgue-images/Manga/" alt="" title="" />
+                            .</span></a>-->
+                        </ol>
+                    </section>
+                    
+                    <section class="morgue-icons" id="fine-arts">
+                        <a href="morgue/fine%20arts.html" class="big-icon-link">
+                            <div class="big-icon"> 
+                                <h4>fine<br/>arts</h4>
+                            </div>
+                        </a>
+                        <ol>
+                            <li class="morgue-item"></li>
+                            <a href="morgue/fine%20arts/1.html" class="no-styling"><span>
+                                <img src="morgue-images/Fine%20Arts/agnes%20cecile%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Fine%20Arts/agnes%20cecile%20-%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Fine%20Arts/agnes%20cecile%20-%203.jpg" alt="" title="" />
+                                <img src="morgue-images/Fine%20Arts/james%20jean%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Fine%20Arts/james%20jean%20-%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Fine%20Arts/james%20jean%20-%203.JPG" alt="" title="" />
+                                <img src="morgue-images/Fine%20Arts/loish%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Fine%20Arts/loish%20-%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Fine%20Arts/loish%20-%203.jpg" alt="" title="" />
+                            .</span></a>
+                        <!--<a href=""></a><span>
+                                <img src="morgue-images/Fine Arts/" alt="" title="" />
+                                <img src="morgue-images/Fine Arts/" alt="" title="" />
+                                <img src="morgue-images/Fine Arts/" alt="" title="" />
+                                <img src="morgue-images/Fine Arts/" alt="" title="" />
+                                <img src="morgue-images/Fine Arts/" alt="" title="" />
+                                <img src="morgue-images/Fine Arts/" alt="" title="" />
+                                <img src="morgue-images/Fine Arts/" alt="" title="" />
+                                <img src="morgue-images/Fine Arts/" alt="" title="" />
+                                <img src="morgue-images/Fine Arts/" alt="" title="" />
+                            .</span></a>-->
+                        </ol>
+                            
+                        
+                    </section>
+                    
+                    <section class="morgue-icons" id="design">
+                        <a href="morgue/design.html" class="big-icon-link">
+                            <div class="big-icon"> 
+                                <h4>design</h4>
+                            </div>
+                        </a>
+                        <ol>
+                            <li></li>
+                            <a href="morgue/design/1.html" class="no-styling"><span>
+                                <img src="morgue-images/Design/kasuga%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Design/lg%20lollipop%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Design/pom%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Design/quick%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Design/quick%20-%202.jpg" alt="" title="" />
+                                <img src="morgue-images/Design/ramune%20-%201.jpg" alt="" title="" />
+                                <img src="morgue-images/Design/yin%20chao%20-%201.jpg" alt="" title="" />
+                            .</span></a>
+                        <!--<a href=""></a><span>
+                                <img src="morgue-images/Design/" alt="" title="" />
+                                <img src="morgue-images/Design/" alt="" title="" />
+                                <img src="morgue-images/Design/" alt="" title="" />
+                                <img src="morgue-images/Design/" alt="" title="" />
+                                <img src="morgue-images/Design/" alt="" title="" />
+                                <img src="morgue-images/Design/" alt="" title="" />
+                                <img src="morgue-images/Design/" alt="" title="" />
+                                <img src="morgue-images/Design/" alt="" title="" />
+                                <img src="morgue-images/Design/" alt="" title="" />
+                            .</span></a>-->
+                        </ol>
+                        
+                    </section>
+
+                </article>
+
+                <aside>
+                    <section class="mini-spotlight">
+                        <h5>SPOTLIGHT</h5>
+                        <img src="morgue-images/Manga/hirunaka%20no%20ryuusei%20-%204.png" />
+                        <h6>November 11, 2011</h6>
+                        <p>Mel ne consul ornatus suscipit, ad sea velit dicta definitionem. Est ne atqui verterem vituperatoribus, legere eligendi te mei, sit cu integre placerat. Omnis intellegebat usu et. Ut vis modus expetendis.</p>
+
+                        <p>Eirmod comprehensam te nam, nihil apeirian pertinacia id mel. Ex partem verear convenire est. Choro efficiendi his ut, est decore verear commodo eu. Ex vide tibique mel. Pri autem aliquam consulatu ex, cu vix inani insolens euripidis, malis nostrum cu nam... <a href="">Read the rest.</a></p>
+                    </section>
+                    
+                    <section>
+                        <h5>Other Recent Spotlights</h5>
+                        <ul>
+                            <li><a href="">xx/xx/xx - Sorry, there's nothing here yet.</a></li>
+                            <li><a href="">xx/xx/xx - Sorry, there's nothing here yet.</a></li>
+                            <li><a href="">xx/xx/xx - Sorry, there's nothing here yet.</a></li>
+                            <li><a href="">xx/xx/xx - Sorry, there's nothing here yet.</a></li>
+                        </ul>
+                        <a href="">See a list of all the spotlights ever featured.</a>
+                    </section>
+                </aside>
+
+            </main>
+
+
+
+            <!-- ==============FOOTER============== -->
+            <footer class="small">
+
+                <small>&copy; Kusamochi</small>
+                
+                
+                <p><img src="writing-kaomoji.jpg"> This website under construction... lots of it.</p>
+
+                <!--<nav>
+                    <ul>
+                        <li><a href="index.html">Home</a>
+                        <li><a href="morgue.html">Morgue</a>
+                        <li><a href="portfolio.html">Portfolio</a>
+                        <li><a href="tweets.html">Diary</a>
+                        <li><a href="bbs.html">BBS</a>
+                    </ul>
+                </nav>-->
+
+            </footer>
+        </div>
+           
+       <aside id="hiddenAside" class="hidden">
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                 */
+
+                var disqus_config = function () {
+                    /* this.page.url = '173.246.106.210/morgue.html'; */
+                    this.page.identifier = 'morgue.html';
+                    this.page.title = 'Morgue';
+                };
+
+                (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+                    var d = document, s = d.createElement('script');
+
+                    s.src = '//kusa-mochi.disqus.com/embed.js';
+
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+       </aside>
+           
+	</body>
+</html>

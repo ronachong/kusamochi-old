@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+		<title>Kusamochi</title>
+		<link href="https://www.holbertonschool.com/level2/holberton.css" rel="stylesheet">
+		<link href="styles.css" rel="stylesheet">
+        <link href="styles-for-portfolio.css" rel="stylesheet">
+        <script src="behavior.js"></script>
+        
+
+        
+        
+        <!-- ==============jQuery/JS============== -->
+
+        <script type="text/javascript">
+        position = null;
+        livePreviewOverlay = null;
+        image = null;
+        </script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="jquery-make-preview-visible.js"></script>
+        <script src="jquery-make-img-big.js"></script>
+        
+	</head>
+	
+	<body class="works_on_smartphone">
+        
+        <!-- ==============FACEBOOK SCRIPT============== -->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+          fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        
+       <div id="mainContainer" class="diary">
+           
+            <!-- ==============HEADER============== -->
+           <header>
+
+                <div id="headerText">
+                    <h1 class="logo">
+                        <a href="index.html">Kusamochi</a>
+                    </h1>
+                    <!-- h1 is a req'd element; think about how to re-implement b4 removing -->
+
+                    <h3>One girl's semi-anonymous outlet</h3>
+                    <!-- h3 is a req'd element; think about how to re-implement b4 removing -->
+
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a>
+                            <li><a href="morgue.html">Morgue</a>
+                            <li><a href="portfolio.html">Portfolio</a>
+                            <li><a href="tweets.html">Diary</a>
+                            <li><a href="bbs.html">BBS</a>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div id="dynamicImage">
+                    <img src="portfolio/projects/kusamochi-w-filter.png" class="small" alt="header" >
+                </div>
+
+               <div id="socialMedia" class="right">
+                    <img src="disqus-favicon-20x20.png" id="disqusIcon">
+                    <div class="fb-share-button" data-href="https://www.facebook.com/ksamochi/?skip_nax_wizard=true" data-layout="icon"></div>
+
+                   <!-- <a href="https://twitter.com/share" class="twitter-share-button" data-via="ronachng">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> -->
+
+                    <a href="http://twitter.com/home?status=Kusamochi+173.246.106.210/index.html+@ronachong"target="_blank">
+                        <img src="https://abs.twimg.com/favicons/favicon.ico">
+                    </a>
+               </div>
+            </header>
+
+            <!-- ==============MAIN============== -->
+            <main class="portfolio">
+                <article>	
+                    <a href="portfolio.html" class="no-styling"><h2>Portfolio</h2></a>
+                    <br>
+                    <section class=art-post>
+                        <h5>> 11/14/2015</h5>
+                        <h2>How to quickly make more passable art if you don't actually have the skills</h2>
+                        <ul>
+                            <li>Draw from a reference image: it will help you because you don't know how to draw bodies without them.</li>
+                            <br />
+                            <div class="gallery-container">
+                                <a class="gallery" id="d11-14-15-slide1" href="#nogo"></a>
+
+                                <a class="gallery" id="d11-14-15-slide2" href="#nogo"></a>
+                                <h6>Figure drawing is hard.</h6>
+                            </div>
+                            <br />
+                            
+                            <li>After drawing from reference, draw it again because it won't be good enough the first time.<br />Use your laptop as a lightbox to trace over what you drew, 'cause it's too hard without tracing. Ha ha.</li>
+                            
+                            <br />
+                            <div class="gallery-container"> 
+                                <a class="gallery" id="d11-14-15-slide3" href="#nogo"></a>
+
+                                <a class="gallery" id="d11-14-15-slide4" href="#nogo"></a>
+                                <h6>Takes a few tries...</h6>
+                            </div>
+                            <br />
+                            
+                            <li>Iterations make everything better!</li>
+                            
+                            <br />
+                            <div class="gallery-container"> 
+                                <a class="gallery" id="d11-14-15-slide5" href="#nogo"></a>
+                                <h6>Wow, the figure became a person.</h6>
+                                <h6>The positioning of the legs morphed here. S'ok, keeps the final thing less derivative!</h6>
+                            </div>
+                            <br />
+                            
+                            <li>O.K., now go take your improved drawing and scan it into the computer.</li>
+                            <li>TRACE OVER <em>THAT</em> and it'll be like, 3X better.</li>
+                            
+                            <br />
+                            <div class="gallery-container"> 
+                                <a class="gallery" id="d11-14-15-slide6" href="#nogo"></a>
+                                <h6>All this computer light lets us trace much more. We can improve the line quality, yay. Weird expression though.</h6>
+                            </div>
+                            <br />
+                            
+                            <li>Actually, it might take you one more time for it to be literally 3X better. But that's just if you want to be technical about it.</li>
+                            
+                            <br />
+                            <div class="gallery-container"> 
+                                <a class="gallery" id="d11-14-15-slide7" href="#nogo"></a>
+                                <h6>I am a very technical person.</h6>
+                            </div>
+                            <br />
+                            
+                            <li>O.K., your drawing should be ready to go now. Go scan it and crop it in Illustrator so it look like a proper graphic, even though it's just a drawing. ^^</li>
+                            
+                            <br />
+                            <div class="gallery-container"> 
+                                <a class="gallery" id="d11-14-15-slide8" href="#nogo"></a>
+                                <h6>This is a proper graphic now!</h6>
+                            </div>
+                            <br />
+
+                            Bonus: slap some filters on it if it's lacking a little something. That'll help it for sure.
+                        </ul>
+
+                        <p>Sorry for getting carried away with my first art post. I've been working on making my own illustration for the header, because I really didn't want to co-opt someone else's illustration of Kuragehime for my own website. (Even though honestly speaking I could probably benefit from cutting some corners and getting this puppy turned in!) Anyway, I hadn't drawn in a long while, so I really benefited from using a bunch of drawing hacks, letting me get to something somewhat passable. I'll readily admit that I'm not really good at drawing and I have a long ways to go before I can draw well consistently. Still, when push comes to shove, when your ego's somewhat at stake, and everything else depends on this header being made, you have to figure out how to put SOMETHING together, right? In similar times of crisis, I follow the steps above in suitable cavalier fashion and it usually serves me pretty well.</p>
+
+                        <p>If you're also at that point where you can't draw well consistently but don't want to be a cop-out to get better results, just think of it like I do: there's no shame in occasionally taking shortcuts for making the world (or this website) an incrementally better-looking place :)). At least-- none for me. </p>
+                    </section>
+
+                </article>
+
+                <aside>
+                    <section>
+                        <a href="portfolio.html" class="no-styling"><h5>Back to Portfolio</h5></a>
+                    </section>
+                    
+                    <section>
+                        <h5>Recent Art Posts</h5>
+                        <ul>
+                            <li><a href="portfolio/11-14-2015.html">11/14/15 - "How to quickly make more passable art if you don't have da skills."</a></li>
+                            <li><a href="">xx/xx/xx - Sorry, there's nothing here yet.</a></li>
+                            <li><a href="">xx/xx/xx - Sorry, there's nothing here yet.</a></li>
+                            <li><a href="">xx/xx/xx - Sorry, there's nothing here yet.</a></li>
+                            <li><a href="">xx/xx/xx - Sorry, there's nothing here yet.</a></li>
+                        </ul>
+                        <a href="">See a list of all the art posts ever made.</a>
+                    </section>
+                </aside>
+
+            </main>
+          
+
+
+
+            <!-- ==============FOOTER============== -->
+            <footer class="small">
+
+                <small>&copy; Kusamochi</small>
+                
+                
+                <p><img src="writing-kaomoji.jpg"> This website under construction... lots of it.</p>
+
+            </footer>
+        </div>
+           
+       <aside id="hiddenAside" class="hidden">
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                 */
+
+                var disqus_config = function () {
+                    /* this.page.url = '173.246.106.210/index.html'; */
+                    this.page.identifier = 'portfolio/11-14-2015.html';
+                    this.page.title = 'Portfolio - 11-14-2015';
+                };
+
+                (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+                    var d = document, s = d.createElement('script');
+
+                    s.src = '//kusa-mochi.disqus.com/embed.js';
+
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+       </aside>
+           
+	</body>
+</html>

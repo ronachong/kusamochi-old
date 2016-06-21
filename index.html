@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+		<title>Kusamochi</title>
+		<link href="https://www.holbertonschool.com/level2/holberton.css" rel="stylesheet">
+		<link href="styles.css" rel="stylesheet">
+        <script src="behavior.js"></script>      
+        
+        <!-- ==============jQuery/JS============== -->
+
+        <script type="text/javascript">
+        livePreviewOverlay = null;
+        </script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="jquery-make-preview-visible.js"></script>
+        
+	</head>
+	
+	<body class="works_on_smartphone">
+        
+        <!-- ==============FACEBOOK SCRIPT============== -->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+          fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        
+       <div id="mainContainer">
+           
+            <!-- ==============HEADER============== -->
+            <header>
+
+                <div id="headerText">
+                    <h1 class="logo">
+                        <a href="index.html">Kusamochi</a>
+                    </h1>
+                    <!-- h1 is a req'd element; think about how to re-implement b4 removing -->
+
+                    <h3>One girl's semi-anonymous outlet</h3>
+                    <!-- h3 is a req'd element; think about how to re-implement b4 removing -->
+
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a>
+                            <li><a href="morgue.html">Morgue</a>
+                            <li><a href="portfolio.html">Portfolio</a>
+                            <li><a href="tweets.html">Diary</a>
+                            <li><a href="bbs.html">BBS</a>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div id="dynamicImage">
+                    <img src="portfolio/projects/kusamochi-w-filter.png" class="small" alt="header" >
+                </div>
+
+               <div id="socialMedia" class="right">
+                    <img src="disqus-favicon-20x20.png" id="disqusIcon">
+                   
+               <div class="fb-share-button" data-href="https://www.facebook.com/ksamochi/?skip_nax_wizard=true" data-layout="icon"></div>
+
+                   <!-- <a href="https://twitter.com/share" class="twitter-share-button" data-via="ronachng">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> -->
+
+                    <a href="http://twitter.com/home?status=Kusamochi+173.246.106.210/index.html+@ronachong"target="_blank">
+                        <img src="https://abs.twimg.com/favicons/favicon.ico">
+                    </a>
+                   
+                </div>
+            </header>
+
+            <!-- ==============MAIN============== -->
+            <main class="index">
+                <article>	
+                    <section class="article-spotlight">
+                        <h5>> Diary Post</h5>
+                        <h2>11/14/2015 (An Opening Post)</h2>
+                        <!--h2 is a req'd element, think about how to re-implement b4 removing -->
+
+                        <img id="smart_thumbnail" src="https://www.bhmpics.com/walls/tired_kitty-wide.jpg" alt="sleepykitty" class="small"><p>It's the wee hours of 11/14/2015, the day before my application to Holberton is due (shout out to you guys if you're reading this!) and I'm kinda feeling wiped. Working hard late into the night to finish things off is a familiar feeling, and so is the feeling of sort of, but not really quite getting there (hello all my essays during school; not that I'd boast about it at a party). This can happen a lot if you're like me and think of pursuing a ton of different possibilities at once. Also, if you're like me, you dream up of all these grand, somewhat complicated or hard-to-get-at concepts, which doesn't make it any easier. So, I'm not the best at scaling down my ideas into something neatly executable, but I try ^^'.</p>
+                         <!--p1 is a  req'd element, think about how to re-implement b4 removing -->
+                        
+                        <p>Keeping with the theme... </p>
+                         <!--p2-->
+                        
+                        <a href="tweets.html#diary" class="more"><p>(read more)</p></a>
+                        <!--p3-->
+
+                    </section>
+                    
+                    <section class="article-spotlight bright">
+                        <h5>> Art Post</h5>
+                        <h2>How to quickly make more passable art if you don't actually have the skills</h2>
+                        
+                        <ul>
+                            <li>Draw from a reference image: it will help you because you don't know how to draw bodies without them.</li>
+                            <li>After drawing from reference, draw it again because it won't be good enough the first time.<br />Use your laptop as a lightbox to trace over what you drew, 'cause it's too hard without tracing. Ha ha.</li>
+                            <li>Iterations make everything better!</li>
+                            <li>O.K., now go take your improved drawing and scan it into the computer.</li>
+                            <li>TRACE OVER <em>THAT</em> and it'll be like, 3X better.</li>
+                            <li>Actually, it might take you one more time for it to be literally 3X better. But that's just if you want to be technical about it.</li>
+                            <li>O.K. your drawing should be ready to go now. Go scan it and crop it in Illustrator so it look like a proper graphic, even though it's just a drawing. ^^</li>
+                        </ul>
+                        
+                        <p>Sorry for getting carried away with my first art post. I've been working on making my own illustration for the header, because I really didn't want to...</p>
+                        <!--p5-->
+                        
+                        <a href="portfolio/11-14-2015.html" class="more"><p>(read more, with images)</p></a>
+
+                    </section>
+                        
+                </article>
+
+                <aside>
+                   <div class="horizontal-icons">
+
+                        <a href="portfolio.html" class="big-icon-link">
+                            <div class="big-icon" id="art">
+                                <iframe src="portfolio.html"></iframe>
+                                <div class="iframe-overlay"><h4>art</h4></div>
+
+                            </div>
+                        </a>
+                        <!--img link is a req'd element, think about how to re-implement b4 removal -->
+
+                        <a href="morgue.html" class="big-icon-link">
+                            <div class="big-icon" id="inspiration">
+                                <iframe src="morgue.html"></iframe>
+                                <div class="iframe-overlay"><h4>inspir<br>ation</h4></div>
+
+                            </div>
+                        </a>
+                       
+                    </div>
+                    <div class="horizontal-icons">
+
+                        <a href="tweets-clone.html" class="big-icon-link">
+                            <div class="big-icon" id="diary">
+                                <iframe src="tweets.html"></iframe>
+                                <div class="iframe-overlay"><h4>diary</h4></div>
+
+                            </div>
+                        </a>
+
+                        <a href="bbs-clone.html" class="big-icon-link">
+                            <div class="big-icon" id="chat">
+                                <iframe src="bbs.html"></iframe>
+                                <div class="iframe-overlay"><h4>chat</h4></div>
+
+                            </div>
+                        </a>
+                       
+                    </div>
+
+                </aside>
+
+            </main>
+
+
+
+            <!-- ==============FOOTER============== -->
+            <footer class="small">
+
+                <small>&copy; Kusamochi</small>
+                
+                
+                <p><img src="writing-kaomoji.jpg"> This website under construction... lots of it.</p>
+
+                <!--<nav>
+                    <ul>
+                        <li><a href="index.html">Home</a>
+                        <li><a href="morgue.html">Morgue</a>
+                        <li><a href="portfolio.html">Portfolio</a>
+                        <li><a href="tweets.html">Diary</a>
+                        <li><a href="bbs.html">BBS</a>
+                    </ul>
+                </nav>-->
+
+            </footer>
+        </div>
+           
+       <aside id="hiddenAside" class="hidden">
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                 */
+
+                var disqus_config = function () {
+                    /* this.page.url = '173.246.106.210/index.html'; */
+                    this.page.identifier = 'index.html';
+                    this.page.title = 'Index';
+                };
+
+                (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+                    var d = document, s = d.createElement('script');
+
+                    s.src = '//kusa-mochi.disqus.com/embed.js';
+
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+       </aside>
+           
+	</body>
+</html>

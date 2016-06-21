@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+		<title>Kusamochi</title>
+		<link href="https://www.holbertonschool.com/level2/holberton.css" rel="stylesheet">
+		<link href="styles.css" rel="stylesheet">
+        <script src="behavior.js"></script>      
+        
+        <!-- ==============jQuery/JS============== -->
+
+        <script type="text/javascript">
+        livePreviewOverlay = null;
+        </script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="jquery-make-preview-visible.js"></script>
+        
+	</head>
+	
+	<body class="works_on_smartphone">
+        
+        <!-- ==============FACEBOOK SCRIPT============== -->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+          fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        
+       <div id="mainContainer">
+           
+            <!-- ==============HEADER============== -->
+            <header>
+
+                <div id="headerText">
+                    <h1 class="logo">
+                        <a href="index.html">Kusamochi</a>
+                    </h1>
+                    <!-- h1 is a req'd element; think about how to re-implement b4 removing -->
+
+                    <h3>One girl's semi-anonymous outlet</h3>
+                    <!-- h3 is a req'd element; think about how to re-implement b4 removing -->
+
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a>
+                            <li><a href="morgue.html">Morgue</a>
+                            <li><a href="portfolio.html">Portfolio</a>
+                            <li><a href="tweets.html">Diary</a>
+                            <li><a href="bbs.html">BBS</a>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div id="dynamicImage">
+                    <img src="portfolio/projects/kusamochi-w-filter.png" class="small" id="smart_thumbnail">
+                </div>
+
+               <div id="socialMedia" class="right">
+                    <img src="disqus-favicon-20x20.png" id="disqusIcon">
+                   
+               <div class="fb-share-button" data-href="https://www.facebook.com/ksamochi/?skip_nax_wizard=true" data-layout="icon"></div>
+
+                   <!-- <a href="https://twitter.com/share" class="twitter-share-button" data-via="ronachng">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> -->
+
+                    <a href="http://twitter.com/home?status=Kusamochi+173.246.106.210/index.html+@ronachong"target="_blank">
+                        <img src="https://abs.twimg.com/favicons/favicon.ico">
+                    </a>
+                   
+                </div>
+            </header>
+        </div>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+		<title>Kusamochi</title>
+		<link href="https://www.holbertonschool.com/level2/holberton.css" rel="stylesheet">
+		<link href="styles.css" rel="stylesheet">
+        <script src="behavior.js"></script>
+        
+        
+        <!-- ==============jQuery/JS============== -->
+
+        <script type="text/javascript">
+        position = null;
+        livePreviewOverlay = null;
+        </script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="jquery-make-preview-visible.js"></script>
+        
+	</head>
+	
+	<body class="works_on_smartphone">
+        
+        <!-- ==============FACEBOOK SCRIPT============== -->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+          fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        
+       <div id="mainContainer">
+           
+            <!-- ==============HEADER============== -->
+           <header>
+
+                <div id="headerText">
+                    <h1 class="logo">
+                        <a href="index.html">Kusamochi</a>
+                    </h1>
+                    <!-- h1 is a req'd element; think about how to re-implement b4 removing -->
+
+                    <h3>One girl's semi-anonymous outlet</h3>
+                    <!-- h3 is a req'd element; think about how to re-implement b4 removing -->
+
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a>
+                            <li><a href="morgue.html">Morgue</a>
+                            <li><a href="portfolio.html">Portfolio</a>
+                            <li><a href="tweets.html">Diary</a>
+                            <li><a href="bbs.html">BBS</a>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div id="dynamicImage">
+                    <img src="portfolio/projects/kusamochi-w-filter.png" class="small" alt="header" >
+                </div>
+
+               <div id="socialMedia" class="right">
+                    <img src="disqus-favicon-20x20.png" id="disqusIcon">
+                    <div class="fb-share-button" data-href="https://www.facebook.com/ksamochi/?skip_nax_wizard=true" data-layout="icon"></div>
+
+                   <!-- <a href="https://twitter.com/share" class="twitter-share-button" data-via="ronachng">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> -->
+
+                    <a href="http://twitter.com/home?status=Kusamochi+173.246.106.210/index.html+@ronachong"target="_blank">
+                        <img src="https://abs.twimg.com/favicons/favicon.ico">
+                    </a>
+               </div>
+
+            </header>
+
+            <!-- ==============MAIN============== -->
+            <main class="BBS">
+                <article>	
+                        
+                    <iframe src="https://kiwiirc.com/client/irc.kiwiirc.com/?nick=Kusa|?#kusamochi" style="border:0; width:700px; height:450px;"></iframe>
+
+                </article>
+
+                <aside>
+                   <section class="article-spotlight">
+
+                        <h2>Bulletin Board</h2>
+                        <ul>
+                            <li><p>An irc chatroom isn't really a BBS... but hey.</p></li>
+                            <li><p>Use this chatroom to chat!</p></li>
+                            <li><p>Alternatively, press the Disqus icon to leave a message. :-)</p></li>
+                       </ul>
+                        
+
+                    </section>
+                </aside>
+
+            </main>
+
+
+
+            <!-- ==============FOOTER============== -->
+            <footer class="small">
+
+                <small>&copy; Kusamochi</small>
+                
+                
+                <p><img src="writing-kaomoji.jpg"> This website under construction... lots of it.</p>
+
+                <!--<nav>
+                    <ul>
+                        <li><a href="index.html">Home</a>
+                        <li><a href="morgue.html">Morgue</a>
+                        <li><a href="portfolio.html">Portfolio</a>
+                        <li><a href="tweets.html">Diary</a>
+                        <li><a href="bbs.html">BBS</a>
+                    </ul>
+                </nav>-->
+
+            </footer>
+        </div>
+           
+       <aside id="hiddenAside" class="hidden">
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                 */
+
+                var disqus_config = function () {
+                    /* this.page.url = '173.246.106.210/bbs.html'; */
+                    this.page.identifier = 'bbs.html';
+                    this.page.title = 'BBS';
+                };
+
+                (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+                    var d = document, s = d.createElement('script');
+
+                    s.src = '//kusa-mochi.disqus.com/embed.js';
+
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+       </aside>
+           
+	</body>
+</html>

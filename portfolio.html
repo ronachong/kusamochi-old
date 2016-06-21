@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+		<title>Kusamochi</title>
+		<link href="https://www.holbertonschool.com/level2/holberton.css" rel="stylesheet">
+		<link href="styles.css" rel="stylesheet">
+        <link href="styles-for-portfolio.css" rel="stylesheet">
+        <script src="behavior.js"></script>
+
+        <script type="text/javascript">
+        position = null;
+        livePreviewOverlay = null;
+        image = null;
+        </script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="jquery-make-preview-visible.js"></script>
+        <script src="jquery-make-img-big.js"></script>
+        
+	</head>
+	
+	<body class="works_on_smartphone">
+        
+        <!-- ==============FACEBOOK SCRIPT============== -->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+          fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        
+       <div id="mainContainer" class="diary">
+           
+            <!-- ==============HEADER============== -->
+           <header>
+
+                <div id="headerText">
+                    <h1 class="logo">
+                        <a href="index.html">Kusamochi</a>
+                    </h1>
+                    <!-- h1 is a req'd element; think about how to re-implement b4 removing -->
+
+                    <h3>One girl's semi-anonymous outlet</h3>
+                    <!-- h3 is a req'd element; think about how to re-implement b4 removing -->
+
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a>
+                            <li><a href="morgue.html">Morgue</a>
+                            <li><a href="portfolio.html">Portfolio</a>
+                            <li><a href="tweets.html">Diary</a>
+                            <li><a href="bbs.html">BBS</a>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div id="dynamicImage">
+                    <img src="portfolio/projects/kusamochi-w-filter.png" class="small" alt="header" >
+                </div>
+
+               <div id="socialMedia" class="right">
+                    <img src="disqus-favicon-20x20.png" id="disqusIcon">
+                    <div class="fb-share-button" data-href="https://www.facebook.com/ksamochi/?skip_nax_wizard=true" data-layout="icon"></div>
+
+                   <!-- <a href="https://twitter.com/share" class="twitter-share-button" data-via="ronachng">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> -->
+
+                    <a href="http://twitter.com/home?status=Kusamochi+173.246.106.210/index.html+@ronachong"target="_blank">
+                        <img src="https://abs.twimg.com/favicons/favicon.ico">
+                    </a>
+               </div>
+            </header>
+
+            <!-- ==============MAIN============== -->
+            <main>
+                <article>	
+                    <h2>Portfolio</h2>
+                    
+                    <div class="gallery-container"> 
+                        <h5>Doodling</h5>
+                        <p>Wow these are from my college years. Some of them are shoddy. Don't look, OK?</p>
+                        <p><a href="#nogo" id="1">Collapse/Uncollapse</a></p>
+                        <ul class="nodisplay" id="doodling">
+                            
+                            <li>
+                                <a class="gallery" id="p-slide1" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide2" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide3" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide4" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide5" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide6" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide7" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide8" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide9" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide10" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide11" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide12" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide13" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide14" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide15" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide16" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide17" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide18" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide19" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide20" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide21" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide22" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide23" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide24" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide25" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide26" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide27" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide28" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide29" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide30" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide31" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide32" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide33" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide34" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide35" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide36" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide37" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide38" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide39" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide40" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide41" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide42" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide43" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide44" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide45" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide46" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide47" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide48" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide49" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide50" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide51" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide52" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide53" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide54" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide55" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide56" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide57" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide58" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide59" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide60" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide61" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <!--
+                            <li>
+                                <a class="gallery" id="p-slide" href="#nogo" target="blank">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide" href="#nogo" target="blank">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide" href="#nogo" target="blank">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide" href="#nogo" target="blank">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p-slide" href="#nogo" target="blank">
+                                </a>
+                            </li>
+                            -->
+                        </ul>
+                    </div>
+                    <br>
+                    <div class="gallery-container"> 
+                        <h5>Drawing from Life</h5>
+                        <p>Usually life in classrooms. I have a ways to go!</p>
+                        <p>By the way, none of this is uploaded yet.</p>
+                        <p><a href="#nogo" id="2">Collapse/Uncollapse</a></p>
+                    </div>
+                    <br>
+                    <div class="gallery-container"> 
+                        <h5>More Formal Work</h5>
+                        <p>Nothing special, just some sketches from classes and stuff.</p>
+                        <p>Haven't had the chance to upload any of this yet, except for some designs for theatre make-up.</p>
+                        <p><a href="#nogo" id="3">Collapse/Uncollapse</a></p>
+                        <ul class="nodisplay" id="more-formal-work">
+                            
+                            <li>
+                                <a class="gallery" id="p3-slide1" href="#nogo">
+                                </a>
+                  
+                            
+                            <li>
+                                <a class="gallery" id="p3-slide2" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p3-slide3" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p3-slide4" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p3-slide5" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p3-slide6" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p3-slide7" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p3-slide8" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p3-slide9" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p3-slide10" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p3-slide11" href="#nogo">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <br>
+                    
+                    <div class="gallery-container"> 
+                        <h5>Graphic Design</h5>
+                        <p>Some of these are all right.</p>
+                        <p><a href="#nogo" id="4">Collapse/Uncollapse</a></p>
+                        <ul class="nodisplay" id="graphic-design">
+                            
+                            <li>
+                                <a class="gallery" id="p4-slide1" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p4-slide2" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p4-slide3" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p4-slide4" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p4-slide5" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p4-slide6" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p4-slide7" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p4-slide8" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p4-slide9" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p4-slide10" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p4-slide11" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p4-slide12" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p4-slide13" href="#nogo">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="gallery" id="p4-slide14" href="#nogo">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <br>
+                    <div class="gallery-container"> 
+                        <h5>Video/Animation</h5>
+                        <p>Yay for embedded Youtube videos~ Random stuff I managed to pass off as assignments.</p>
+                        <p><a href="#nogo" id="5">Collapse/Uncollapse</a></p>
+                        <ul id="video" class="nodisplay">
+                            <li><iframe width="420" height="315" src="https://www.youtube.com/embed/PQErToXOVQI" frameborder="0" allowfullscreen></iframe></li>
+                            <li><iframe width="560" height="315" src="https://www.youtube.com/embed/LDGn2b9oowg" frameborder="0" allowfullscreen></iframe></li>
+                            <li><iframe width="420" height="315" src="https://www.youtube.com/embed/w6Xx5RWgDBQ" frameborder="0" allowfullscreen></iframe></li>
+                            <li><iframe width="420" height="315" src="https://www.youtube.com/embed/8YkUeLKJeY4" frameborder="0" allowfullscreen></iframe></li>
+                        </ul>
+                    </div>
+                    <br>
+                        
+
+                </article>
+
+                <aside>
+                    <section>
+                        <h5>Recent Art Posts</h5>
+                        <ul>
+                            <li><a href="portfolio/11-14-2015.html">11/14/15 - "How to quickly make more passable art if you don't have da skills."</a></li>
+                            <li><a href="">xx/xx/xx - Sorry, there's nothing here yet.</a></li>
+                            <li><a href="">xx/xx/xx - Sorry, there's nothing here yet.</a></li>
+                            <li><a href="">xx/xx/xx - Sorry, there's nothing here yet.</a></li>
+                            <li><a href="">xx/xx/xx - Sorry, there's nothing here yet.</a></li>
+                        </ul>
+                        <a href="">See a list of all the art posts ever made.</a>
+                    </section>
+                </aside>
+
+            </main>
+          
+
+
+
+            <!-- ==============FOOTER============== -->
+            <footer class="small">
+
+                <small>&copy; Kusamochi</small>
+                
+                
+                <p><img src="writing-kaomoji.jpg"> This website under construction... lots of it.</p>
+
+                <!--<nav>
+                    <ul>
+                        <li><a href="index.html">Home</a>
+                        <li><a href="morgue.html">Morgue</a>
+                        <li><a href="portfolio.html">Portfolio</a>
+                        <li><a href="tweets.html">Diary</a>
+                        <li><a href="bbs.html">BBS</a>
+                    </ul>
+                </nav>-->
+
+            </footer>
+        </div>
+           
+       <aside id="hiddenAside" class="hidden">
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                 */
+
+                var disqus_config = function () {
+                    /* this.page.url = '173.246.106.210/index.html'; */
+                    this.page.identifier = 'portfolio.html';
+                    this.page.title = 'Portfolio';
+                };
+
+                (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+                    var d = document, s = d.createElement('script');
+
+                    s.src = '//kusa-mochi.disqus.com/embed.js';
+
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+       </aside>
+           
+	</body>
+</html>

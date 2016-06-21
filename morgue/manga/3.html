@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+		<title>Kusamochi</title>
+		<link href="https://www.holbertonschool.com/level2/holberton.css" rel="stylesheet">
+		<link href="styles.css" rel="stylesheet">
+        <link href="styles-for-gallery.css" rel="stylesheet">
+        <script src="behavior.js"></script>
+        
+        
+        
+        <!-- ==============jQuery/JS============== -->
+
+        <script type="text/javascript">
+        position = null;
+        livePreviewOverlay = null;
+        morgueItem = null;
+        morgueItemChildren = null;
+        </script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="jquery-make-preview-visible.js"></script>
+        <script src="jquery-make-imgspan-visible.js"></script>
+
+	</head>
+	
+	<body class="works_on_smartphone">
+        
+        <!-- ==============FACEBOOK SCRIPT============== -->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "/connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+          fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        
+       <div id="mainContainer">
+           
+            <!-- ==============HEADER============== -->
+           <header>
+
+                <div id="headerText">
+                    <h1 class="logo">
+                        <a href="index.html">Kusamochi</a>
+                    </h1>
+                    <!-- h1 is a req'd element; think about how to re-implement b4 removing -->
+
+                    <h3>One girl's semi-anonymous outlet</h3>
+                    <!-- h3 is a req'd element; think about how to re-implement b4 removing -->
+
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a>
+                            <li><a href="morgue.html">Morgue</a>
+                            <li><a href="portfolio.html">Portfolio</a>
+                            <li><a href="tweets.html">Diary</a>
+                            <li><a href="bbs.html">BBS</a>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div id="dynamicImage">
+                    <img src="portfolio/projects/kusamochi-w-filter.png" class="small" alt="header" >
+                </div>
+
+               <div id="socialMedia" class="right">
+                    <img src="disqus-favicon-20x20.png" id="disqusIcon">
+                    <div class="fb-share-button" data-href="https://www.facebook.com/ksamochi/?skip_nax_wizard=true" data-layout="icon"></div>
+
+                   <!-- <a href="https://twitter.com/share" class="twitter-share-button" data-via="ronachng">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> -->
+
+                    <a href="http://twitter.com/home?status=Kusamochi+173.246.106.210/index.html+@ronachong"target="_blank">
+                        <img src="https://abs.twimg.com/favicons/favicon.ico">
+                    </a>
+               </div>
+            </header>
+
+            <!-- ==============MAIN============== -->
+            <main>
+                <article>
+                    <a href="morgue.html" class="no-styling"><h2>Morgue</h2></a>
+                    <h5><a href="morgue/manga.html" class="no-styling">> Manga</a> <a href="morgue/manga/3.html" class="no-styling">> 3</a></h5>
+                    <div class="gallery-container" id="manga-3"> 
+                        <ul>
+
+                            <li>
+                                <a class="gallery slide13" href="#nogo">
+                                    <span>
+                                        <img src="morgue-images/Manga/bitou%20lollipop%20-%201.jpg" alt="" title="" />
+                                        <br />
+
+                                        <br />
+                                    </span>
+                                </a>
+
+                            </li>
+
+                            <li>
+                                <a class="gallery slide14" href="#nogo">
+                                    <span>
+                                        <img src="morgue-images/Manga/bitou%20lollipop%20-%202.jpg" alt="" title="" />
+                                        <br />
+
+                                        <br />
+                                    </span>
+                                </a>
+
+                            </li>
+
+                            <li>
+                                <a class="gallery slide15" href="#nogo">
+                                    <span>
+                                        <img src="morgue-images/Manga/futago%20-%201.jpg" alt="" title="" />
+                                        <br />
+
+                                        <br />
+                                    </span>
+                                </a>
+
+                            </li>
+
+                            <li>
+                                <a class="gallery slide16" href="#nogo">
+                                    <span>
+                                        <img src="morgue-images/Manga/futago%20-%202.jpg" alt="" title="" />
+                                        <br />
+
+                                        <br />
+                                    </span>
+                                </a>
+
+                            </li>
+
+                            <li>
+                                <a class="gallery slide17" href="#nogo">
+                                    <span>
+                                        <img src="morgue-images/Manga/futago%20-%203.jpg" alt="" title="" />
+                                        <br />
+
+                                        <br />
+                                    </span>
+                                </a>
+
+                            </li>
+
+                            <li>
+                                <a class="gallery slide53" href="#nogo">
+                                    <span>
+                                        <img src="morgue-images/Manga/toribako%20house%20-%201.png" alt="" title="" />
+                                        <br />
+
+                                        <br />
+                                    </span>
+                                </a>
+
+                            </li>
+
+                            <li>
+                                <a class="gallery slide54" href="#nogo">
+                                    <span>
+                                        <img src="morgue-images/Manga/toribako%20house%20-%202.png" alt="" title="" />
+                                        <br />
+
+                                        <br />
+                                    </span>
+                                </a>
+
+                            </li>
+
+                            <li>
+                                <a class="gallery slide55" href="#nogo">
+                                    <span>
+                                        <img src="morgue-images/Manga/toribako%20house%20-%203.png" alt="" title="" />
+                                        <br />
+
+                                        <br />
+                                    </span>
+                                </a>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                    
+
+
+                </article>
+
+                <aside>
+                    <nav>
+                        <ol>
+                            <a href="morgue/manga/1.html"><li> </li></a>
+                            <a href="morgue/manga/2.html"><li> </li></a>
+                            <a href="morgue/manga/3.html"><li> </li></a>
+                            <a href="morgue/manga/4.html"><li> </li></a>
+                            <a href="morgue/manga/5.html"><li> </li></a>
+                            <a href="morgue/manga/6.html"><li> </li></a>
+                        </ol>
+                    </nav>
+                    
+                    <section>
+                        <a href="morgue.html" class="no-styling"><h5>BACK TO MORGUE</h5></a>
+                        <br>
+                        
+                
+                    </section>
+                    
+                    <section>
+                        <h6>Other Categories</h5>
+                        <ul>
+                            <li><a href="">xx/xx/xx - Sorry, there's nothing here yet.</a></li>
+                            <li><a href="">xx/xx/xx - Sorry, there's nothing here yet.</a></li>
+                            <li><a href="">xx/xx/xx - Sorry, there's nothing here yet.</a></li>
+                            <li><a href="">xx/xx/xx - Sorry, there's nothing here yet.</a></li>
+                        </ul>
+                    </section>
+                </aside>
+
+            </main>
+
+
+
+            <!-- ==============FOOTER============== -->
+            <footer class="small">
+
+                <small>&copy; Kusamochi</small>
+                
+                
+                <p><img src="writing-kaomoji.jpg"> This website under construction... lots of it.</p>
+
+                <!--<nav>
+                    <ul>
+                        <li><a href="index.html">Home</a>
+                        <li><a href="morgue.html">Morgue</a>
+                        <li><a href="portfolio.html">Portfolio</a>
+                        <li><a href="tweets.html">Diary</a>
+                        <li><a href="bbs.html">BBS</a>
+                    </ul>
+                </nav>-->
+
+            </footer>
+        </div>
+           
+       <aside id="hiddenAside" class="hidden">
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                 */
+
+                var disqus_config = function () {
+                    /* this.page.url = '173.246.106.210/index.html'; */
+                    this.page.identifier = 'morgue/manga/3.html';
+                    this.page.title = 'Manga - 3';
+                };
+
+                (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+                    var d = document, s = d.createElement('script');
+
+                    s.src = '//kusa-mochi.disqus.com/embed.js';
+
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+       </aside>
+           
+	</body>
+</html>
