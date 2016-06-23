@@ -37,3 +37,14 @@ notes:
 
 questions:
 -why do file paths render as "file:///C:/"? I'm more used to seeing // or C:/ only.
+
+6/22/2016
+-created a new github repo for kusamochi files and copied all files to repo
+-initialized Capistrano library in github repo; configured deploy.rb, staging.rb, and production.rb
+-used 'capistrano production deploy' to deploy code to server
+-on server: changed kusamochi.com.conf file to specify root directory as current; restarted apache AND server to kick in changes
+(prior to all of this: made custom nameserver rons, hosted on OVH server; made zone file on rons specify IP for kusamochi.com as OVH server; changed nameserver to rons on GoDaddy; created /home/admin/kusamochi and /var/www/ symlink to house html for kusamochi; created kusamochi.com.conf file in apache/sites-available and specified /var/www/kusamochi.com/public_html as root directory; enabled site using sudo a2ensite; and restarted apache & server to kick in changes).
+
+notes:
+-cover images for preview icons now seem to work
+-preview icon links are broken, probably has to do with absolute paths
