@@ -9,7 +9,8 @@ set :branch, 'master'
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Specify deploy_to directory as
-set :deploy_to, '/var/www/kusamochi.com/public_html/'
+# set :deploy_to, '/var/www/kusamochi.com/public_html/'
+set :deploy_to, '/home/admin/kusamochi/'
 
 # Default value for :scm is :git
 # set :scm, :git
