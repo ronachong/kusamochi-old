@@ -1,33 +1,70 @@
 4/20/2016
--all files: removed "/" from all local resource paths (seemed to cause links, etc. to fail in Google Chrome)
--styles.css: specified height for header element; for some reason Chrome seems to computer everything in header to height ~47 px, not sure why, so did a manual hack for now.
+-all files: removed "/" from all local resource paths (seemed to cause links,
+ etc. to fail in Google Chrome)
+-styles.css: specified height for header element; for some reason Chrome seems
+ to computer everything in header to height ~47 px, not sure why, so did a
+ manual hack for now.
 -changed tagline ^.^
--removed identifying information in footer and changed small footer height to reflect 1 line instead of 2
+-removed identifying information in footer and changed small footer height to
+ reflect 1 line instead of 2
 
 notes:
--I notice that livepreview shows cover art for iframe icons, but not normal Chrome rendering. not sure why. might have to do with some javascript not working.
--manual hack is working variably for different pages, have to look into it. might be relative to what size the rest of the content is.
--file:///C:/Users/Kyle%20Chong/Desktop/Kusamochi/portfolio/11-14-2015.html stills seems to have broken css
--javascript doesn't seem to be working on file:///C:/Users/Kyle%20Chong/Desktop/Kusamochi/portfolio.html#nogo
--I think at some point I should compile all my css into one file; all my javascript & jquery into one file.
--I should actually include my fonts in my local resources and not import them (web performance reasons)
--I should include a web developer diary section where I can upload snippets and notes like this; as well as more broad musings on design and architecture.
--in the future I'd like my morgue to have snippets/snapshots of past iterations of website; maybe live previews of some sort as an advanced feature.
+-I notice that livepreview shows cover art for iframe icons, but not normal
+ Chrome rendering. not sure why. might have to do with some javascript not
+ working.
+-manual hack is working variably for different pages, have to look into
+ it. might be relative to what size the rest of the content is.
+-file:///C:/Users/Kyle%20Chong/Desktop/Kusamochi/portfolio/11-14-2015.html
+ stills seems to have broken css
+-javascript doesn't seem to be working on
+ file:///C:/Users/Kyle%20Chong/Desktop/Kusamochi/portfolio.html#nogo
+-I think at some point I should compile all my css into one file; all my
+ javascript & jquery into one file.
+-I should actually include my fonts in my local resources and not import them
+ (web performance reasons)
+-I should include a web developer diary section where I can upload snippets and
+ notes like this; as well as more broad musings on design and architecture.
+-in the future I'd like my morgue to have snippets/snapshots of past iterations
+ of website; maybe live previews of some sort as an advanced feature.
 -I want a more raspberry color for the link styling. Is that too predictable?
--Could redo my current illustration in Illustrator to give it a feel closer to what I want. Would take like 10 hrs though.
--Current illustration may need to be positioned with absolute positioning or something similar to give it the position that I want. But I would like users to maybe be able to scroll past it (in which case this current flex layout doesn't even apply. - or I have to make a dynamic header - one big version, one small)
--thinking that I will not tweet directly from main account, but occasionally retweet @__kusamochi. Partly for branding purposes. But this means I will have to be a bit more careful about my writing and strike a fine balance by writing authentically but sometimes indirectly or obliquely.
+-Could redo my current illustration in Illustrator to give it a feel closer to
+ what I want. Would take like 10 hrs though.
+-Current illustration may need to be positioned with absolute positioning or
+ something similar to give it the position that I want. But I would like users
+ to maybe be able to scroll past it (in which case this current flex layout
+ doesn't even apply. - or I have to make a dynamic header - one big version, one
+ small)
+-thinking that I will not tweet directly from main account, but occasionally
+ retweet @__kusamochi. Partly for branding purposes. But this means I will have
+ to be a bit more careful about my writing and strike a fine balance by writing
+ authentically but sometimes indirectly or obliquely.
 -Need to add "past statuses" section to diary.
--Would like to swap out Disqus for more personal guestbook tool. could use PHP and forms :)
+-Would like to swap out Disqus for more personal guestbook tool. could use PHP
+ and forms :)
 
--"read at your own risk" for personal section. (if people read, they ought to hold themselves liable for acting like they don't know what they read!)
--introductory launch post; including "I decided to make this blog semi-anonymous. That means that if people really want to find me/find out who I am, they can. It also means that the amount of disclosure in my posts will change, and I'll have to strike a tough balance between..."
+-"read at your own risk" for personal section. (if people read, they ought to
+ hold themselves liable for acting like they don't know what they read!)
+-introductory launch post; including "I decided to make this blog
+ semi-anonymous. That means that if people really want to find me/find out who I
+ am, they can. It also means that the amount of disclosure in my posts will
+ change, and I'll have to strike a tough balance between..."
 
--tweets can serve as a platform to summarize (rephrase) & announce new content in a playful way.
--I would like readers/visitors to my blog to naturally get a sense/develop a sense of the "language" (by which I mean organization, by which I really mean, underlying logic) of my blog without me spelling it out for them. Like Chris Ware and Wliu's comments on Jimmy Corrigan.
--"Anyone can be a coder. Anyone can be an 'artist.'" Thinking about starting to evangelize people personalizing and creating their own web spaces in a highly personal, creative manner.
--Thinking of one day making a "look how far I've come! look how much I listened to you even though I didn't seem all that receptive!" thank you post to Penny Arcade. When I can feel like I'm actually decently committed to drawing comic style art.
--I've obviously just turned this developer log into a stream of consciousness thing. And my penchant for thinking and thinking up new things one after another is showing.
+-tweets can serve as a platform to summarize (rephrase) & announce new content
+ in a playful way.
+-I would like readers/visitors to my blog to naturally get a sense/develop a
+ sense of the "language" (by which I mean organization, by which I really mean,
+ underlying logic) of my blog without me spelling it out for them. Like Chris
+ Ware and Wliu's comments on Jimmy Corrigan.
+-"Anyone can be a coder. Anyone can be an 'artist.'" Thinking about starting to
+ evangelize people personalizing and creating their own web spaces in a highly
+ personal, creative manner.
+-Thinking of one day making a "look how far I've come! look how much I listened
+ to you even though I didn't seem all that receptive!" thank you post to Penny
+ Arcade. When I can feel like I'm actually decently committed to drawing comic
+ style art.
+-I've obviously just turned this developer log into a stream of consciousness
+ thing. And my penchant for thinking and thinking up new things one after
+ another is showing.
 -I love hair! That's why I can draw it somewhat well (I like to think.)
 -I love opacity (I mean transparency)! Just like I love glass.
 -These are looking like tweets to me.
@@ -36,14 +73,23 @@ notes:
 -json dumps to link data (vs. using cms or database system like wordpress(?))
 
 questions:
--why do file paths render as "file:///C:/"? I'm more used to seeing // or C:/ only.
+-why do file paths render as "file:///C:/"? I'm more used to seeing // or C:/
+ only.
 
 6/22/2016
 -created a new github repo for kusamochi files and copied all files to repo
--initialized Capistrano library in github repo; configured deploy.rb, staging.rb, and production.rb
+-initialized Capistrano library in github repo; configured deploy.rb,
+ staging.rb, and production.rb
 -used 'capistrano production deploy' to deploy code to server
--on server: changed kusamochi.com.conf file to specify root directory as current; restarted apache AND server to kick in changes
-(prior to all of this: made custom nameserver rons, hosted on OVH server; made zone file on rons specify IP for kusamochi.com as OVH server; changed nameserver to rons on GoDaddy; created /home/admin/kusamochi and /var/www/ symlink to house html for kusamochi; created kusamochi.com.conf file in apache/sites-available and specified /var/www/kusamochi.com/public_html as root directory; enabled site using sudo a2ensite; and restarted apache & server to kick in changes).
+-on server: changed kusamochi.com.conf file to specify root directory as
+ current; restarted apache AND server to kick in changes
+
+(prior to all of this: made custom nameserver rons, hosted on OVH server; made
+zone file on rons specify IP for kusamochi.com as OVH server; changed nameserver
+to rons on GoDaddy; created /home/admin/kusamochi and /var/www/ symlink to house
+html for kusamochi; created kusamochi.com.conf file in apache/sites-available
+and specified /var/www/kusamochi.com/public_html as root directory; enabled site
+using sudo a2ensite; and restarted apache & server to kick in changes).
 
 notes:
 -cover images for preview icons now seem to work
