@@ -1,0 +1,157 @@
+# Logfile created on 2016-06-21 15:13:12 -0700 by logger.rb/41954
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-21 15:13:12 -0700 cap staging check_write_permissions
+  INFO ---------------------------------------------------------------------------
+ DEBUG [0f091a01] Running [ -w /var/www/kusamochi.com/public_html/ ] as admin@rochong.space
+ DEBUG [0f091a01] Command: [ -w /var/www/kusamochi.com/public_html/ ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-21 15:23:36 -0700 cap staging check_write_permissions
+  INFO ---------------------------------------------------------------------------
+ DEBUG [1cdce59a] Running [ -w /var/www/kusamochi.com/public_html/ ] as admin@rochong.space
+ DEBUG [1cdce59a] Command: [ -w /var/www/kusamochi.com/public_html/ ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-21 15:26:30 -0700 cap staging check_write_permissions
+  INFO ---------------------------------------------------------------------------
+ DEBUG [84014c49] Running [ -w /var/www/kusamochi.com/public_html/ ] as admin@rochong.space
+ DEBUG [84014c49] Command: [ -w /var/www/kusamochi.com/public_html/ ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-21 15:29:10 -0700 cap staging check_write_permissions
+  INFO ---------------------------------------------------------------------------
+ DEBUG [782e9405] Running [ -w /var/www/kusamochi.com/public_html/ ] as admin@rochong.space
+ DEBUG [782e9405] Command: [ -w /var/www/kusamochi.com/public_html/ ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-21 15:29:28 -0700 cap staging check_write_permissions
+  INFO ---------------------------------------------------------------------------
+ DEBUG [73d976ed] Running [ -w /var/www/kusamochi.com/public_html/ ] as admin@rochong.space
+ DEBUG [73d976ed] Command: [ -w /var/www/kusamochi.com/public_html/ ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-21 15:30:17 -0700 cap staging check_write_permissions
+  INFO ---------------------------------------------------------------------------
+ DEBUG [9da5d3f5] Running [ -w /var/www/kusamochi.com/public_html/ ] as admin@rochong.space
+ DEBUG [9da5d3f5] Command: [ -w /var/www/kusamochi.com/public_html/ ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-21 15:31:28 -0700 cap staging check_write_permissions
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f71bd210] Running [ -w /var/www/kusamochi.com/public_html/ ] as admin@rochong.space
+ DEBUG [f71bd210] Command: [ -w /var/www/kusamochi.com/public_html/ ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-21 15:34:03 -0700 cap staging check_write_permissions
+  INFO ---------------------------------------------------------------------------
+ DEBUG [87eeb88c] Running [ -w /var/www/kusamochi.com/public_html/ ] as admin@158.69.79.94
+ DEBUG [87eeb88c] Command: [ -w /var/www/kusamochi.com/public_html/ ]
+ DEBUG [87eeb88c] Finished in 1.661 seconds with exit status 0 (successful).
+  INFO #fetch(:deploy_to)} is writable on 158.69.79.94
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-21 15:39:22 -0700 cap staging git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [70bbe726] Running /usr/bin/env mkdir -p /tmp/kusamochi/ as admin@158.69.79.94
+ DEBUG [70bbe726] Command: /usr/bin/env mkdir -p /tmp/kusamochi/
+  INFO [70bbe726] Finished in 1.744 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/kusamochi/git-ssh.sh 0.0%
+  INFO Uploading /tmp/kusamochi/git-ssh.sh 100.0%
+  INFO [b1d8d328] Running /usr/bin/env chmod +rx /tmp/kusamochi/git-ssh.sh as admin@158.69.79.94
+ DEBUG [b1d8d328] Command: /usr/bin/env chmod +rx /tmp/kusamochi/git-ssh.sh
+  INFO [b1d8d328] Finished in 0.154 seconds with exit status 0 (successful).
+  INFO [dfe8e827] Running /usr/bin/env git ls-remote --heads git@github.com:ronachong/kusamochi.git as admin@158.69.79.94
+ DEBUG [dfe8e827] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/kusamochi/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:ronachong/kusamochi.git )
+ DEBUG [dfe8e827] 	bd439d3c03b551e47a031c66a0da87315d4cf21c	refs/heads/master
+  INFO [dfe8e827] Finished in 0.617 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-21 15:41:05 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-21 15:41:18 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-21 15:54:18 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-21 16:23:48 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-21 16:24:10 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-21 16:35:05 -0700 cap production deploy:setup
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-22 19:12:33 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [dcec39e9] Running /usr/bin/env mkdir -p /tmp/kusamochi/ as admin@158.69.79.94
+ DEBUG [dcec39e9] Command: /usr/bin/env mkdir -p /tmp/kusamochi/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-22 19:14:53 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [74282552] Running /usr/bin/env mkdir -p /tmp/kusamochi/ as admin@158.69.79.94
+ DEBUG [74282552] Command: /usr/bin/env mkdir -p /tmp/kusamochi/
+  INFO [74282552] Finished in 3.446 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/kusamochi/git-ssh.sh 0.0%
+  INFO Uploading /tmp/kusamochi/git-ssh.sh 100.0%
+  INFO [c1ad52e7] Running /usr/bin/env chmod +rx /tmp/kusamochi/git-ssh.sh as admin@158.69.79.94
+ DEBUG [c1ad52e7] Command: /usr/bin/env chmod +rx /tmp/kusamochi/git-ssh.sh
+  INFO [c1ad52e7] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [5aa2921f] Running /usr/bin/env git ls-remote --heads git@github.com:ronachong/kusamochi.git as admin@158.69.79.94
+ DEBUG [5aa2921f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/kusamochi/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:ronachong/kusamochi.git )
+ DEBUG [5aa2921f] 	bd439d3c03b551e47a031c66a0da87315d4cf21c	refs/heads/master
+  INFO [5aa2921f] Finished in 0.443 seconds with exit status 0 (successful).
+  INFO [7b906c59] Running /usr/bin/env mkdir -p /home/admin/kusamochi/shared /home/admin/kusamochi/releases as admin@158.69.79.94
+ DEBUG [7b906c59] Command: /usr/bin/env mkdir -p /home/admin/kusamochi/shared /home/admin/kusamochi/releases
+  INFO [7b906c59] Finished in 0.157 seconds with exit status 0 (successful).
+ DEBUG [7b63fee8] Running [ -f /home/admin/kusamochi/current/REVISION ] as admin@158.69.79.94
+ DEBUG [7b63fee8] Command: [ -f /home/admin/kusamochi/current/REVISION ]
+ DEBUG [7b63fee8] Finished in 0.154 seconds with exit status 1 (failed).
+ DEBUG [669dff83] Running [ -f /home/admin/kusamochi/repo/HEAD ] as admin@158.69.79.94
+ DEBUG [669dff83] Command: [ -f /home/admin/kusamochi/repo/HEAD ]
+ DEBUG [669dff83] Finished in 0.154 seconds with exit status 1 (failed).
+ DEBUG [d60bd66b] Running if test ! -d /home/admin/kusamochi/; then echo "Directory does not exist '/home/admin/kusamochi/'" 1>&2; false; fi as admin@158.69.79.94
+ DEBUG [d60bd66b] Command: if test ! -d /home/admin/kusamochi/; then echo "Directory does not exist '/home/admin/kusamochi/'" 1>&2; false; fi
+ DEBUG [d60bd66b] Finished in 0.154 seconds with exit status 0 (successful).
+  INFO [5b303aef] Running /usr/bin/env git clone --mirror git@github.com:ronachong/kusamochi.git /home/admin/kusamochi/repo as admin@158.69.79.94
+ DEBUG [5b303aef] Command: cd /home/admin/kusamochi/ && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/kusamochi/git-ssh.sh" ; /usr/bin/env git clone --mirror git@github.com:ronachong/kusamochi.git /home/admin/kusamochi/repo )
+ DEBUG [5b303aef] 	Cloning into bare repository '/home/admin/kusamochi/repo'...
+  INFO [5b303aef] Finished in 37.662 seconds with exit status 0 (successful).
+ DEBUG [665291f6] Running if test ! -d /home/admin/kusamochi/repo; then echo "Directory does not exist '/home/admin/kusamochi/repo'" 1>&2; false; fi as admin@158.69.79.94
+ DEBUG [665291f6] Command: if test ! -d /home/admin/kusamochi/repo; then echo "Directory does not exist '/home/admin/kusamochi/repo'" 1>&2; false; fi
+ DEBUG [665291f6] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [a39e89e5] Running /usr/bin/env git remote update --prune as admin@158.69.79.94
+ DEBUG [a39e89e5] Command: cd /home/admin/kusamochi/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/kusamochi/git-ssh.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [a39e89e5] 	Fetching origin
+  INFO [a39e89e5] Finished in 0.453 seconds with exit status 0 (successful).
+ DEBUG [afe0552a] Running if test ! -d /home/admin/kusamochi/repo; then echo "Directory does not exist '/home/admin/kusamochi/repo'" 1>&2; false; fi as admin@158.69.79.94
+ DEBUG [afe0552a] Command: if test ! -d /home/admin/kusamochi/repo; then echo "Directory does not exist '/home/admin/kusamochi/repo'" 1>&2; false; fi
+ DEBUG [afe0552a] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [bf252f7e] Running /usr/bin/env mkdir -p /home/admin/kusamochi/releases/20160623021459 as admin@158.69.79.94
+ DEBUG [bf252f7e] Command: cd /home/admin/kusamochi/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/kusamochi/git-ssh.sh" ; /usr/bin/env mkdir -p /home/admin/kusamochi/releases/20160623021459 )
+  INFO [bf252f7e] Finished in 0.156 seconds with exit status 0 (successful).
+  INFO [c0de44a5] Running /usr/bin/env git archive master | tar -x -f - -C /home/admin/kusamochi/releases/20160623021459 as admin@158.69.79.94
+ DEBUG [c0de44a5] Command: cd /home/admin/kusamochi/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/kusamochi/git-ssh.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/admin/kusamochi/releases/20160623021459 )
+  INFO [c0de44a5] Finished in 2.829 seconds with exit status 0 (successful).
+ DEBUG [8aff96ac] Running if test ! -d /home/admin/kusamochi/repo; then echo "Directory does not exist '/home/admin/kusamochi/repo'" 1>&2; false; fi as admin@158.69.79.94
+ DEBUG [8aff96ac] Command: if test ! -d /home/admin/kusamochi/repo; then echo "Directory does not exist '/home/admin/kusamochi/repo'" 1>&2; false; fi
+ DEBUG [8aff96ac] Finished in 0.155 seconds with exit status 0 (successful).
+ DEBUG [6fc99afd] Running /usr/bin/env git rev-list --max-count=1 master as admin@158.69.79.94
+ DEBUG [6fc99afd] Command: cd /home/admin/kusamochi/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/kusamochi/git-ssh.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [6fc99afd] 	bd439d3c03b551e47a031c66a0da87315d4cf21c
+ DEBUG [6fc99afd] Finished in 0.157 seconds with exit status 0 (successful).
+ DEBUG [9b0b492e] Running if test ! -d /home/admin/kusamochi/releases/20160623021459; then echo "Directory does not exist '/home/admin/kusamochi/releases/20160623021459'" 1>&2; false; fi as admin@158.69.79.94
+ DEBUG [9b0b492e] Command: if test ! -d /home/admin/kusamochi/releases/20160623021459; then echo "Directory does not exist '/home/admin/kusamochi/releases/20160623021459'" 1>&2; false; fi
+ DEBUG [9b0b492e] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [8fd0c83a] Running /usr/bin/env echo "bd439d3c03b551e47a031c66a0da87315d4cf21c" >> REVISION as admin@158.69.79.94
+ DEBUG [8fd0c83a] Command: cd /home/admin/kusamochi/releases/20160623021459 && /usr/bin/env echo "bd439d3c03b551e47a031c66a0da87315d4cf21c" >> REVISION
+  INFO [8fd0c83a] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [b92bbc0f] Running /usr/bin/env ln -s /home/admin/kusamochi/releases/20160623021459 /home/admin/kusamochi/releases/current as admin@158.69.79.94
+ DEBUG [b92bbc0f] Command: /usr/bin/env ln -s /home/admin/kusamochi/releases/20160623021459 /home/admin/kusamochi/releases/current
+  INFO [b92bbc0f] Finished in 0.156 seconds with exit status 0 (successful).
+  INFO [3e1afcef] Running /usr/bin/env mv /home/admin/kusamochi/releases/current /home/admin/kusamochi as admin@158.69.79.94
+ DEBUG [3e1afcef] Command: /usr/bin/env mv /home/admin/kusamochi/releases/current /home/admin/kusamochi
+  INFO [3e1afcef] Finished in 0.157 seconds with exit status 0 (successful).
+ DEBUG [5ecde06c] Running /usr/bin/env ls -xtr /home/admin/kusamochi/releases as admin@158.69.79.94
+ DEBUG [5ecde06c] Command: /usr/bin/env ls -xtr /home/admin/kusamochi/releases
+ DEBUG [5ecde06c] 	20160623021459
+ DEBUG [5ecde06c] Finished in 0.156 seconds with exit status 0 (successful).
+ DEBUG [13fe0cb6] Running if test ! -d /home/admin/kusamochi/releases; then echo "Directory does not exist '/home/admin/kusamochi/releases'" 1>&2; false; fi as admin@158.69.79.94
+ DEBUG [13fe0cb6] Command: if test ! -d /home/admin/kusamochi/releases; then echo "Directory does not exist '/home/admin/kusamochi/releases'" 1>&2; false; fi
+ DEBUG [13fe0cb6] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [5b79bd4d] Running /usr/bin/env echo "Branch master (at bd439d3c03b551e47a031c66a0da87315d4cf21c) deployed as release 20160623021459 by 20" >> /home/admin/kusamochi/revisions.log as admin@158.69.79.94
+ DEBUG [5b79bd4d] Command: cd /home/admin/kusamochi/releases && /usr/bin/env echo "Branch master (at bd439d3c03b551e47a031c66a0da87315d4cf21c) deployed as release 20160623021459 by 20" >> /home/admin/kusamochi/revisions.log
+  INFO [5b79bd4d] Finished in 0.155 seconds with exit status 0 (successful).
